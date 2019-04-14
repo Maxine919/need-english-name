@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/category/main",
+    "pages/cart/main",
+    "pages/member/main"  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff2d4a",
+    "navigationBarTitleText": "大美星城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#2f2f2f",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff2d4a",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "星城首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/icon_home@3x.png",
+      "selectedIconPath": "static/images/icon_home_active@3x.png"
+    }, {
+      "text": "商品分类",
+      "pagePath": "pages/category/main",
+      "iconPath": "static/images/icon_category@3x.png",
+      "selectedIconPath": "static/images/icon_category_active@3x.png"
+    }, {
+      "text": "我的购物车",
+      "pagePath": "pages/cart/main",
+      "iconPath": "static/images/icon_cart@3x.png",
+      "selectedIconPath": "static/images/icon_cart_active@3x.png"
+    }, {
+      "text": "会员中心",
+      "pagePath": "pages/member/main",
+      "iconPath": "static/images/icon_me@3x.png",
+      "selectedIconPath": "static/images/icon_me_active@3x.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "订单",
+      "pagePath": "pages/logs/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}
